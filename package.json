@@ -1,0 +1,14 @@
+{
+  "name": "password-brute-force",
+  "version": "1.0.0",
+  "description": "Script to brute force 5-digit number combinations",
+  "main": "password-brute.js",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "start": "node password-brute.js",
+    "resume": "node password-brute.js",
+    "reset": "RESUME=false node password-brute.js"
+  }
+} 
